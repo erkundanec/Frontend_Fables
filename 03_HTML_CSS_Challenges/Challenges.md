@@ -13,3 +13,17 @@
 ## Challenge #2: Add 2 lists to the page
 - The ordered list should be added inside the sidebar.
 - The unordered list should be added where indicated inside of main content.
+
+#### Tips:
+- The structure of both lists is the same, with one key difference between the two
+- Don't forget, each item in the list needs to be wrapped in a specific tag
+
+## Challenge #3: Fix the image on the page 
+- I have added an image to the page, but I have made a mistake and it's not loading in...
+- There might be more than 1 thing that's wrong
+- There's somthing important missing, even once you get the image to load in 
+
+
+#### Tips:
+- The images are in a sub folder
+- We need a way for a screen reader to know what the image is.
