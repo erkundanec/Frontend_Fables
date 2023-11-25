@@ -10,4 +10,6 @@
 - We need somewhere for the "metadata" to live
 - We need somewhere for the content to live
 
-## Challenge #2
+## Challenge #2: Add 2 lists to the page
+- The ordered list should be added inside the sidebar.
+- The unordered list should be added where indicated inside of main content.
