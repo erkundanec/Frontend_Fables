@@ -13,12 +13,12 @@ img {
 
 body {
     font-family: 'PT Sans', sans-serif;
-    font-size: 21px;
     line-height: 1.6;
-    color: #fff;
-    background: #131925;
+    color: #fff; 
+    background: #1A1E26; 
+    font-size: 21px;
 }
- 
+
 h1, h2, h3 {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 900;
@@ -34,10 +34,6 @@ h2 {
     line-height: 1;
 }
 
-h2 span {
-    display: block;
-}
-
 a {
     color: #3669C9;
 }
@@ -45,24 +41,6 @@ a {
 a:hover,
 a:focus {
     color: #fff;
-}
-
-.text-accent {
-    color: #3669C9;
-}
-
-.container {
-    margin: 0 auto;
-    max-width: 1100px;
-    padding: 0 2em;
-}
-
-.split {
-    display: flex;
-}
-
-.col {
-    margin: 0 1em;
 }
 
 .btn {
@@ -80,12 +58,11 @@ a:focus {
     background: #3339C9;
 }
 
-.hero {
+.hero { 
     text-align: left;
     padding: 14rem 0 25rem;
-    background-image: url(img/moon.jpg);
+    background-image: url("../img/moon.jpg");
     background-size: cover;
-    background-position: bottom right;
 }
 
 header,
@@ -103,10 +80,33 @@ section {
 }
 
 .accent-bg .btn:hover {
-    background: #1A1E26;
+    background: #1A1E26; 
     color: #fff;
 }
 
 .extra-space {
     margin-top: 10rem;
+}
+
+
+.text-accent {
+    color: #3669C9;
+}
+
+.text-dark {
+    color: #1A1E26; 
+}
+
+.container {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.columns {
+    display: flex;
 }
